@@ -8,6 +8,15 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SingleChildScrollView(
+      child: Scaffold(
+        body: Container(
+          child: Image.asset(
+            "bg.png",
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
+    );
   }
 }
