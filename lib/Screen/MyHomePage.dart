@@ -1,4 +1,5 @@
 import 'package:classroom/componants/appbar.dart';
+import 'package:classroom/componants/front.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -23,6 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             CustomAppBar(),
+            FrontOfBG(),
           ],
         ),
       ),

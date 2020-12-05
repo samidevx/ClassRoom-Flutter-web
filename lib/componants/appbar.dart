@@ -60,12 +60,15 @@ class CustomAppBar extends StatelessWidget {
           ),
           FlatButton(
             shape: RoundedRectangleBorder(
-                side: BorderSide(
-                    color: Color.fromRGBO(59, 41, 84, 1),
-                    width: 0.5,
-                    style: BorderStyle.solid),
-                borderRadius: BorderRadius.circular(30)),
-            onPressed: () {},
+              side: BorderSide(
+                  color: Color.fromRGBO(59, 41, 84, 1),
+                  width: 0.5,
+                  style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(30),
+            ),
+            onPressed: () {
+              print("Sing In Butoon Pressed");
+            },
             child: Text(
               "Sing In",
               style: TextStyle(
@@ -75,7 +78,8 @@ class CustomAppBar extends StatelessWidget {
                 decoration: TextDecoration.none,
               ),
             ),
-          )
+          ),
+          SizedBox(width: 20),
         ],
       ),
     );
