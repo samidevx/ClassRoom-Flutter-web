@@ -1,5 +1,6 @@
-import 'package:classroom/componants/appbar.dart';
-import 'package:classroom/componants/front.dart';
+import 'package:classroom/componants/Facepage.dart';
+import 'package:classroom/componants/onlineCourse.dart';
+
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -13,21 +14,11 @@ class _MyHomePageState extends State<MyHomePage> {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return SingleChildScrollView(
-      child: Container(
-        width: width,
-        height: height,
-        decoration: BoxDecoration(
-            image: DecorationImage(
-          image: AssetImage("bg.png"),
-          fit: BoxFit.cover,
-        )),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            CustomAppBar(),
-            FrontOfBG(),
-          ],
-        ),
+      child: Column(
+        children: [
+          FacePage(),
+          OnlineCourse(),
+        ],
       ),
     );
   }
