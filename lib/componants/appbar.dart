@@ -19,9 +19,12 @@ class CustomAppBar extends StatelessWidget {
           ]),
       child: Row(
         children: [
-          Image.asset(
-            "logo.png",
-            alignment: Alignment.topCenter,
+          ClipRRect(
+            borderRadius: BorderRadius.circular(30),
+            child: Image.asset(
+              "logo.png",
+              alignment: Alignment.topCenter,
+            ),
           ),
           Spacer(),
           MenuItem(
@@ -77,9 +80,9 @@ class MenuItem extends StatelessWidget {
           child: Text(
             title,
             style: TextStyle(
-              color: Colors.black38,
+              color: Colors.black,
               fontWeight: FontWeight.bold,
-              fontSize: 20,
+              fontSize: 14,
               decoration: TextDecoration.none,
             ),
           ),
