@@ -58,6 +58,24 @@ class CustomAppBar extends StatelessWidget {
               print("Pricing pressed");
             },
           ),
+          FlatButton(
+            shape: RoundedRectangleBorder(
+                side: BorderSide(
+                    color: Color.fromRGBO(59, 41, 84, 1),
+                    width: 0.5,
+                    style: BorderStyle.solid),
+                borderRadius: BorderRadius.circular(30)),
+            onPressed: () {},
+            child: Text(
+              "Sing In",
+              style: TextStyle(
+                color: Color.fromRGBO(59, 41, 84, 1),
+                fontWeight: FontWeight.bold,
+                fontSize: 14,
+                decoration: TextDecoration.none,
+              ),
+            ),
+          )
         ],
       ),
     );
