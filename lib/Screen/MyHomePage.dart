@@ -22,6 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
           fit: BoxFit.cover,
         )),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             CustomAppBar(),
             FrontOfBG(),
