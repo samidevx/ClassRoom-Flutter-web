@@ -38,9 +38,9 @@ class OnlineCourse extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: FlatButton(
-              height: 50,
+              height: 47,
               onPressed: () {},
-              child: Text("   Start courses  ",
+              child: Text("     Start courses    ",
                   style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w300,
