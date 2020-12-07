@@ -1,6 +1,13 @@
+import 'package:chewie/chewie.dart';
 import 'package:flutter/material.dart';
+import 'package:video_player/video_player.dart';
 
-class OnlineCourse extends StatelessWidget {
+class OnlineCourse extends StatefulWidget {
+  @override
+  _OnlineCourseState createState() => _OnlineCourseState();
+}
+
+class _OnlineCourseState extends State<OnlineCourse> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
