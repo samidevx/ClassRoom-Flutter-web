@@ -12,7 +12,7 @@ class OnlineCourse extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SizedBox(height: 100),
+          SizedBox(height: 60),
           Text(
             "Online courses from 140 Top\nInstitutions.",
             textAlign: TextAlign.center,
@@ -46,6 +46,24 @@ class OnlineCourse extends StatelessWidget {
                       fontWeight: FontWeight.w300,
                       fontSize: 13)),
               color: Color.fromRGBO(59, 41, 84, 1),
+            ),
+          ),
+          SizedBox(
+            height: 40,
+          ),
+          Container(
+            height: height * 0.52,
+            width: width * 0.40,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.black26,
+            ),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image.asset(
+                "video.png",
+                fit: BoxFit.cover,
+              ),
             ),
           ),
         ],
