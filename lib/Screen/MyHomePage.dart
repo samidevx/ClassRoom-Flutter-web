@@ -22,6 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
           OnlineCourse(),
           BottomOnlineCourse(),
           AnyWhereSection(),
+          StartingCourses(),
         ],
       ),
     );
