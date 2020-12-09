@@ -2,6 +2,7 @@ import 'package:classroom/componants/Facepage.dart';
 import 'package:classroom/componants/anywhereSection.dart';
 import 'package:classroom/componants/bottomonlinecourse.dart';
 import 'package:classroom/componants/onlineCourse.dart';
+import 'package:classroom/componants/plan.dart';
 import 'package:classroom/componants/startCourses.dart';
 
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomOnlineCourse(),
           AnyWhereSection(),
           StartingCourses(),
+          PlanForPay(),
         ],
       ),
     );
