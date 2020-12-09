@@ -10,34 +10,58 @@ class PlanForPay extends StatelessWidget {
       child: Container(
         width: width,
         height: height,
-        color: Color.fromRGBO(59, 41, 84, 1),
+        color: Color.fromRGBO(47, 45, 81, 1),
         child: Column(
           children: [
             Container(
-              color: Colors.pink,
               height: height * 0.35,
-              child: Column(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Row(
+                  Image.asset("lo.png"),
+                  SizedBox(
+                    width: 40,
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Image.asset(""),
-                      Text(""),
+                      Text(
+                        "Welcome to classroom!",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 33,
+                          decoration: TextDecoration.none,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 25,
+                      ),
+                      Text(
+                        "Get full access to thousands of classes or begin\nClassroom Basic",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.normal,
+                          fontSize: 13,
+                          decoration: TextDecoration.none,
+                        ),
+                      ),
                     ],
                   ),
-                  Text(""),
                 ],
               ),
             ),
             Container(
-              color: Colors.black,
-              height: height * 0.35,
+              color: Colors.blue,
+              height: height * 0.65,
               child: Row(
                 children: [
-                  CardItem(),
-                  CardItem(),
+                  // CardItem(),
+                  //CardItem(),
                 ],
               ),
-              
             ),
           ],
         ),
@@ -45,4 +69,3 @@ class PlanForPay extends StatelessWidget {
     );
   }
 }
-
