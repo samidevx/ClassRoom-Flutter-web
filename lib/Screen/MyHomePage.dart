@@ -1,4 +1,5 @@
 import 'package:classroom/componants/Facepage.dart';
+import 'package:classroom/componants/Statistic.dart';
 import 'package:classroom/componants/anywhereSection.dart';
 import 'package:classroom/componants/bottomonlinecourse.dart';
 import 'package:classroom/componants/onlineCourse.dart';
@@ -26,6 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
           AnyWhereSection(),
           StartingCourses(),
           PlanForPay(),
+          StatisticWithFooter(),
         ],
       ),
     );
