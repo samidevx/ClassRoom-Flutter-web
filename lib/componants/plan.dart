@@ -37,14 +37,16 @@ class PlanForPay extends StatelessWidget {
                     SizedBox(
                       height: 25,
                     ),
-                    Text(
-                      "Get full access to thousands of classes or begin\nClassroom Basic",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.normal,
-                        fontSize: 13,
-                        decoration: TextDecoration.none,
+                    Flexible(
+                      child: Text(
+                        "Get full access to thousands of classes or begin\nClassroom Basic",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.normal,
+                          fontSize: 13,
+                          decoration: TextDecoration.none,
+                        ),
                       ),
                     ),
                   ],
@@ -54,8 +56,8 @@ class PlanForPay extends StatelessWidget {
           ),
           Container(
             height: height * 0.65,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+            child: Wrap(
+              //mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 PlanItem(
                   title: "Basic",

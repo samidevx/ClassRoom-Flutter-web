@@ -14,7 +14,7 @@ class _BottomOnlineCourseState extends State<BottomOnlineCourse> {
       width: width,
       height: height,
       color: Colors.white,
-      child: Row(
+      child: Wrap(
         children: [
           Container(
             padding: EdgeInsets.all(70),

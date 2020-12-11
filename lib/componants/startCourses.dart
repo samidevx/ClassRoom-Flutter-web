@@ -26,9 +26,9 @@ class _StartingCoursesState extends State<StartingCourses> {
               ),
             ),
             Expanded(
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+              child: Wrap(
+                // crossAxisAlignment: CrossAxisAlignment.center,
+                //mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
                     width: width * 0.40,

@@ -5,7 +5,9 @@ import 'package:flutter/rendering.dart';
 class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return Container(
+      width: width,
       margin: EdgeInsets.all(30),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(

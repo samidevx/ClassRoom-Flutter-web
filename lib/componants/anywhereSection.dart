@@ -14,7 +14,7 @@ class _AnyWhereSectionState extends State<AnyWhereSection> {
       width: width,
       height: height,
       color: Color.fromRGBO(245, 237, 254, 1),
-      child: Row(
+      child: Wrap(
         children: [
           Container(width: width * 0.50, child: Image.asset("hours.png")),
           Container(
