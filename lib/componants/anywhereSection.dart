@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AnyWhereSection extends StatefulWidget {
   @override
@@ -29,7 +30,7 @@ class _AnyWhereSectionState extends State<AnyWhereSection> {
                 Text(
                   "Learn From\nanywhere.",
                   textAlign: TextAlign.left,
-                  style: TextStyle(
+                  style: GoogleFonts.poppins(
                     color: Color.fromRGBO(59, 41, 84, 1),
                     fontWeight: FontWeight.normal,
                     fontSize: 55,
@@ -42,7 +43,7 @@ class _AnyWhereSectionState extends State<AnyWhereSection> {
                 Text(
                   "Take classes on the go with the Skillshare app.\nStream or download to watch on the plane, the\nsubway,or wherever you learn best.",
                   textAlign: TextAlign.left,
-                  style: TextStyle(
+                  style: GoogleFonts.poppins(
                     color: Color.fromRGBO(59, 41, 84, 1),
                     fontWeight: FontWeight.normal,
                     fontSize: 18,
@@ -65,7 +66,7 @@ class _AnyWhereSectionState extends State<AnyWhereSection> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Text("     Download    ",
-                        style: TextStyle(
+                        style: GoogleFonts.poppins(
                             color: Color.fromRGBO(59, 41, 84, 1),
                             fontWeight: FontWeight.w300,
                             fontSize: 13)),

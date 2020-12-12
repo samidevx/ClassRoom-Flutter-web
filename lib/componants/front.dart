@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class FrontOfBG extends StatelessWidget {
   @override
@@ -13,7 +14,7 @@ class FrontOfBG extends StatelessWidget {
         children: [
           Text(
             "Learn on Your \nclass schedule",
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Colors.white,
               fontWeight: FontWeight.bold,
               fontSize: 50,
@@ -24,7 +25,7 @@ class FrontOfBG extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "Well, the answer is actually no\nrather than generating fancy fonts,\nthis converter creates fancy symbols.",
-              style: TextStyle(
+              style: GoogleFonts.poppins(
                 color: Colors.white,
                 fontWeight: FontWeight.normal,
                 fontSize: 15,

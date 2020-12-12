@@ -1,5 +1,6 @@
 import 'package:chewie/chewie.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:video_player/video_player.dart';
 
 class OnlineCourse extends StatefulWidget {
@@ -23,7 +24,7 @@ class _OnlineCourseState extends State<OnlineCourse> {
           Text(
             "Online courses from 140 Top\nInstitutions.",
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Color.fromRGBO(59, 41, 84, 1),
               fontWeight: FontWeight.normal,
               fontSize: 35,
@@ -34,7 +35,7 @@ class _OnlineCourseState extends State<OnlineCourse> {
           Text(
             "Choose from 100,000 online video courses with new\nadditions published every mounth",
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Color.fromRGBO(59, 41, 84, 1),
               fontWeight: FontWeight.normal,
               fontSize: 13,
@@ -48,7 +49,7 @@ class _OnlineCourseState extends State<OnlineCourse> {
               height: 47,
               onPressed: () {},
               child: Text("     Start courses    ",
-                  style: TextStyle(
+                  style: GoogleFonts.poppins(
                       color: Colors.white,
                       fontWeight: FontWeight.w300,
                       fontSize: 13)),

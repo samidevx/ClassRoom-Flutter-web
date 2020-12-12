@@ -1,5 +1,6 @@
 import 'package:classroom/Screen/platitem.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PlanForPay extends StatelessWidget {
   @override
@@ -27,7 +28,7 @@ class PlanForPay extends StatelessWidget {
                     Text(
                       "Welcome to classroom!",
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: GoogleFonts.poppins(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                         fontSize: 33,
@@ -41,7 +42,7 @@ class PlanForPay extends StatelessWidget {
                       child: Text(
                         "Get full access to thousands of classes or begin\nClassroom Basic",
                         textAlign: TextAlign.center,
-                        style: TextStyle(
+                        style: GoogleFonts.poppins(
                           color: Colors.white,
                           fontWeight: FontWeight.normal,
                           fontSize: 13,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class BottomOnlineCourse extends StatefulWidget {
   @override
@@ -28,7 +29,7 @@ class _BottomOnlineCourseState extends State<BottomOnlineCourse> {
                 Text(
                   "Become an\ninstructor.",
                   textAlign: TextAlign.left,
-                  style: TextStyle(
+                  style: GoogleFonts.poppins(
                     color: Color.fromRGBO(59, 41, 84, 1),
                     fontWeight: FontWeight.normal,
                     fontSize: 55,
@@ -41,7 +42,7 @@ class _BottomOnlineCourseState extends State<BottomOnlineCourse> {
                 Text(
                   "Top instructions from around th world teach\nmillions of students on udemy. we provide the\ntools ans skills to teach what you love.",
                   textAlign: TextAlign.left,
-                  style: TextStyle(
+                  style: GoogleFonts.poppins(
                     color: Color.fromRGBO(59, 41, 84, 1),
                     fontWeight: FontWeight.normal,
                     fontSize: 18,
@@ -57,7 +58,7 @@ class _BottomOnlineCourseState extends State<BottomOnlineCourse> {
                     height: 47,
                     onPressed: () {},
                     child: Text("     Learn More    ",
-                        style: TextStyle(
+                        style: GoogleFonts.poppins(
                             color: Colors.white,
                             fontWeight: FontWeight.w300,
                             fontSize: 13)),

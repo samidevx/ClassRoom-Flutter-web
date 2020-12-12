@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StartingCourses extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _StartingCoursesState extends State<StartingCourses> {
                     child: Text(
                       "Courses\nstarting soon!",
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: GoogleFonts.poppins(
                         color: Color.fromRGBO(59, 41, 84, 1),
                         fontWeight: FontWeight.normal,
                         fontSize: 55,

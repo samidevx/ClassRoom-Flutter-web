@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PlanItem extends StatelessWidget {
   const PlanItem({this.title, this.prix, this.title2});
@@ -25,7 +26,7 @@ class PlanItem extends StatelessWidget {
           Text(
             title,
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Colors.white,
               fontWeight: FontWeight.bold,
               fontSize: 23,
@@ -35,7 +36,7 @@ class PlanItem extends StatelessWidget {
           Text(
             prix,
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Colors.white,
               fontWeight: FontWeight.bold,
               fontSize: 23,
@@ -45,7 +46,7 @@ class PlanItem extends StatelessWidget {
           Text(
             "Per Month / Paid Annually",
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Colors.white,
               fontWeight: FontWeight.normal,
               fontSize: 13,
@@ -58,7 +59,7 @@ class PlanItem extends StatelessWidget {
               height: 47,
               onPressed: () {},
               child: Text("     Select Plan    ",
-                  style: TextStyle(
+                  style: GoogleFonts.poppins(
                       color: Color.fromRGBO(59, 41, 84, 1),
                       fontWeight: FontWeight.w700,
                       fontSize: 13)),
@@ -68,7 +69,7 @@ class PlanItem extends StatelessWidget {
           Text(
             title2,
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Colors.white,
               fontWeight: FontWeight.normal,
               fontSize: 13,

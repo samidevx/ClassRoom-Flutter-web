@@ -1,5 +1,6 @@
 import 'package:classroom/componants/menuItem.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StatisticWithFooter extends StatelessWidget {
   @override
@@ -18,7 +19,7 @@ class StatisticWithFooter extends StatelessWidget {
           Text(
             "What makes our collection\none of a kind",
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Color.fromRGBO(59, 41, 84, 1),
               fontWeight: FontWeight.bold,
               fontSize: 25,
@@ -53,7 +54,7 @@ class StatisticWithFooter extends StatelessWidget {
           Text(
             "We're your strategic learning partner\nti help move skills forward.",
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Color.fromRGBO(59, 41, 84, 1),
               fontWeight: FontWeight.bold,
               fontSize: 35,
@@ -130,7 +131,7 @@ class StatisticPlan extends StatelessWidget {
           title,
           //"A thiriving source",
           textAlign: TextAlign.center,
-          style: TextStyle(
+          style: GoogleFonts.poppins(
             color: Color.fromRGBO(59, 41, 84, 1),
             fontWeight: FontWeight.bold,
             fontSize: 22,
@@ -144,7 +145,7 @@ class StatisticPlan extends StatelessWidget {
           desc,
           //"Our courses come from Udemy's thriving\nmarketplace, where thousands of courses on the\n most popular skills are added every mounth.",
           textAlign: TextAlign.center,
-          style: TextStyle(
+          style: GoogleFonts.poppins(
             color: Color.fromRGBO(59, 41, 84, 1),
             fontWeight: FontWeight.bold,
             fontSize: 12,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MenuItem extends StatelessWidget {
   final String title;
@@ -17,7 +18,7 @@ class MenuItem extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 15),
           child: Text(
             title,
-            style: TextStyle(
+            style: GoogleFonts.poppins(
               color: Colors.black,
               fontWeight: FontWeight.bold,
               fontSize: 14,
